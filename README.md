@@ -21,7 +21,7 @@ The thesis proposes and deploys 3 different packet measurement methods, based on
   
   ### All methods are shown in application files below:
 
-  - Method of using probing packet - Active Probing:
+  - **Method of using probing packet - Active Probing:**
 
     - In the system where is no actual traffic:
 
@@ -35,13 +35,13 @@ The thesis proposes and deploys 3 different packet measurement methods, based on
       + Run file `Base-Traffic-for-ActiveProbing.py`: simulate actual network traffic, with speed adjustment.
 
 
-  - Method of using periodic counter - Legacy Counter:
+  - **Method of using periodic counter - Legacy Counter:**
 
     + Run file `Legacy_Counter.py`: program estimation.
     + Run file `Send_Packet.py`: simulate actual network traffic, with speed adjustment.
 
 
-  - Method of using sampling-based counters - Sampling-based Packet:
+  - **Method of using sampling-based counters - Sampling-based Packet:**
 
     + Run the file `Sampling_Packet.py`: the program that performs the estimation.
     + Run file `Send_Packet.py`: simulate actual network traffic, with speed adjustment.
